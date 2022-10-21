@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.example.UntitledTestSuite.UntitledTestCase
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.158 s <<< FAILURE! - in com.example.UntitledTestSuite.UntitledTestCase
+testUntitledTestCase(com.example.UntitledTestSuite.UntitledTestCase)  Time elapsed: 0.095 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable must exist: D:\IdeaProjects\Tests
+	at com.example.UntitledTestSuite.UntitledTestCase.setUp(UntitledTestCase.java:24)
+
+testUntitledTestCase(com.example.UntitledTestSuite.UntitledTestCase)  Time elapsed: 0.096 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+	at com.example.UntitledTestSuite.UntitledTestCase.tearDown(UntitledTestCase.java:78)
+

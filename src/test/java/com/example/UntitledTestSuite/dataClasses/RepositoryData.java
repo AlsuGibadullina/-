@@ -9,6 +9,10 @@ public class RepositoryData {
         this.description = description;
     }
 
+    public RepositoryData(String name) {
+        this.name = name;
+    }
+
     public String getName() {
         return name;
     }
